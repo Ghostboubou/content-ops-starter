@@ -1,7 +1,7 @@
 ---
 title: Inscription
 slug: /blog
-numOfPostsPerPage: 8
+numOfPostsPerPage: 1
 enableSearch: false
 topSections: []
 styles:
