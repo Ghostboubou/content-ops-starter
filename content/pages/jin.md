@@ -62,5 +62,5 @@ sections:
       color: text-primary
     colors: bg-light-fg-dark
 slug: jin
-isDraft: true
+isDraft: false
 ---
