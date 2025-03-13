@@ -1,6 +1,6 @@
 {
     "logo": {
-        "url": "/images/logo-dark.svg",
+        "url": "/images/logo trs.png",
         "altText": "Logo dark",
         "styles": {
             "self": {
@@ -15,5 +15,21 @@
     "secondaryLinks": [],
     "variant": "logo-left-primary-nav-centered",
     "colors": "bg-light-fg-dark",
-    "type": "Header"
+    "type": "Header",
+    "styles": {
+        "self": {
+            "padding": [
+                "pr-36",
+                "pt-36",
+                "pl-36",
+                "pb-36"
+            ],
+            "margin": [
+                "mt-1",
+                "ml-1",
+                "mb-1",
+                "mr-1"
+            ]
+        }
+    }
 }

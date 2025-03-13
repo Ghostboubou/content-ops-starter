@@ -1,55 +1,72 @@
 ---
-title: Blog
+title: Inscription
 slug: /blog
 numOfPostsPerPage: 8
-enableSearch: true
-topSections:
-  - title:
-      text: Featured Post
-      color: text-dark
-      type: TitleBlock
-    subtitle: This is the subtitle
-    posts:
-      - content/pages/blog/top-ten-lessons-we-learned.md
-    showThumbnail: true
-    showExcerpt: true
-    showDate: true
-    showAuthor: true
-    variant: big-list
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-28
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: flex-start
-    type: FeaturedPostsSection
-    hoverEffect: move-up
+enableSearch: false
+topSections: []
 styles:
   title:
     textAlign: center
-seo:
-  metaTitle: Blog - Demo site
-  metaDescription: >-
-    This is the blog of the demo site where we post about technology, product,
-    and design.
-  socialImage: /images/img-placeholder.svg
-  type: Seo
 type: PostFeedLayout
-bottomSections: []
-postFeed:
-  type: PagedPostsSection
-  title: null
-  subtitle: null
-  showThumbnail: true
-  showExcerpt: true
-  showDate: true
-  showAuthor: true
-  actions: []
-  elementId: null
-  variant: three-col-grid
-  colors: bg-light-fg-dark
-  hoverEffect: move-up
+bottomSections:
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: Generic Section With A Form
+      color: text-dark
+    subtitle: Section with a form subtitle
+    text: |-
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    actions: []
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: Email
+          hideLabel: true
+          placeholder: Your email
+          isRequired: true
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: Message
+          hideLabel: true
+          placeholder: Your message
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Submit
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
+            - pb-6
+            - pl-6
+            - pr-6
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+    badge:
+      type: Badge
+      label: Contact Us
+      color: text-primary
+    colors: bg-light-fg-dark
+isDraft: false
 ---
