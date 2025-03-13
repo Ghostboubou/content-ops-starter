@@ -12,7 +12,7 @@ bottomSections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Generic Section With A Form
+      text: jin
       color: text-dark
     subtitle: Section with a form subtitle
     text: |-
@@ -71,7 +71,7 @@ bottomSections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: jin
+      text: Generic Section With A Form
       color: text-dark
     subtitle: Section with a form subtitle
     text: |-
