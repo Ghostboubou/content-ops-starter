@@ -63,4 +63,6 @@ sections:
     colors: bg-light-fg-dark
 slug: Inscription
 isDraft: false
+seo:
+  type: Seo
 ---
