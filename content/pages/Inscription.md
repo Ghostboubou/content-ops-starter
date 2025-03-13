@@ -30,7 +30,7 @@ sections:
           hideLabel: true
           placeholder: Your email
           isRequired: true
-          width: 1/2
+          width: full
         - type: TextareaFormControl
           name: message
           label: Message
