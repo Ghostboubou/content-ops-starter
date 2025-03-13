@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Inscription
 slug: /blog
 numOfPostsPerPage: 8
 enableSearch: false
