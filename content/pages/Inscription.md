@@ -61,7 +61,7 @@ sections:
       label: Contact Us
       color: text-primary
     colors: bg-light-fg-dark
-slug: empty
+slug: Inscription
 isDraft: true
 seo:
   type: Seo
