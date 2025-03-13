@@ -62,7 +62,7 @@ sections:
       color: text-primary
     colors: bg-light-fg-dark
 slug: Inscription
-isDraft: true
+isDraft: false
 seo:
   type: Seo
   metaTitle: Landing Page
